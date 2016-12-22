@@ -15,7 +15,7 @@ Build the image:
 Test that you can run it:
 
     docker run -d -p 8000:8000  --name myapp myapp:latest
-    curl $(docker-machine ip code):8000
+    curl localhost:8000
 
 
 ## Test Driven Development
